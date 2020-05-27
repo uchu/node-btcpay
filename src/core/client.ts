@@ -31,7 +31,8 @@ export class BTCPayClient {
         'User-Agent': this.userAgent,
         'X-Accept-Version': '2.0.0',
         rejectUnauthorized: false,
-        strictSSL: false
+        strictSSL: false,
+        requestCert: false
       },
       json: true,
     };
