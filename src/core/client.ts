@@ -30,11 +30,10 @@ export class BTCPayClient {
         Accept: 'application/json',
         'User-Agent': this.userAgent,
         'X-Accept-Version': '2.0.0',
-        rejectUnauthorized: false,
-        strictSSL: false,
-        requestCert: false
       },
       json: true,
+      rejectUnauthorized: false,
+      strictSSL: false,
     };
   }
 
